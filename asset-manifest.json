@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/software_developer/static/css/main.d25eb118.css",
+    "main.js": "/software_developer/static/js/main.fd58a502.js",
+    "static/media/Satyavrat_Jha2.jpg": "/software_developer/static/media/Satyavrat_Jha2.1947a33b508a6f2981cd.jpg",
+    "index.html": "/software_developer/index.html",
+    "main.d25eb118.css.map": "/software_developer/static/css/main.d25eb118.css.map",
+    "main.fd58a502.js.map": "/software_developer/static/js/main.fd58a502.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d25eb118.css",
+    "static/js/main.fd58a502.js"
+  ]
+}
