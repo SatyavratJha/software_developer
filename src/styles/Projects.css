@@ -1,0 +1,101 @@
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.project-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.project-header h3 {
+  color: var(--primary-color);
+  margin-right: 10px;
+}
+
+.project-status {
+  padding: 4px 10px;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.project-status.in-progress {
+  background-color: #ffeaa7;
+  color: #d35400;
+}
+
+.project-status.planning {
+  background-color: #dfe6e9;
+  color: #636e72;
+}
+
+.project-status.completed {
+  background-color: #55efc4;
+  color: #00b894;
+}
+
+.project-card p {
+  color: var(--text-light);
+  margin-bottom: 15px;
+  flex-grow: 1;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.project-tag {
+  background-color: var(--light-color);
+  color: var(--primary-color);
+  padding: 4px 12px;
+  border-radius: 50px;
+  font-size: 0.8rem;
+}
+
+.project-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.project-actions .btn {
+  flex: 1;
+  text-align: center;
+  padding: 8px 15px;
+  font-size: 0.9rem;
+}
+
+.projects-note {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--light-color);
+  border-radius: 10px;
+}
+
+.projects-note p {
+  color: var(--text-light);
+  font-style: italic;
+}
