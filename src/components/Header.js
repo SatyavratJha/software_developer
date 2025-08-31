@@ -14,7 +14,7 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <nav className="nav">
-          <a href="#" className="logo">
+          <a href="#about" className="logo">
             Satyavrat Jha
             <img
               src={ProfilePhoto}
