@@ -12,7 +12,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://SatyavratJha.github.io/software_developer",
+  "homepage": "https://satyavratjha.github.io/software_developer",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
